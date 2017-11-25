@@ -10,8 +10,10 @@ public class Prueba {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testTrue() {
+		EvaluadorBoleano evaluador = new EvaluadorBoleano();
+		assert evaluador.evalua("verdadero") == true;
+		
 	}
 
 }
